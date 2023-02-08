@@ -6,11 +6,6 @@ terraform {
       source  = "CheckPointSW/infinity-next"
       version = "1.0.3"
     }
-
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "2.56.0"
-    }
   }
 }
 
